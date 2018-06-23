@@ -1,0 +1,32 @@
+.login-wrapper {
+  justify-content: center !important;
+  background: none !important;
+  height: 100%;
+  align-items: center;
+}
+.login-wrapper .login:after {
+  content: unset !important;
+}
+.card-form{
+  min-height: unset !important;
+  width: 20rem !important;
+  box-shadow: 0px 4px 19px #007cbb;
+  border-radius: 4px;
+  padding: 20px !important;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+.d-center{
+  display: flex;
+  justify-content: center;
+}
+.cus-input{
+  margin: 0px 0 20px 0 !important;
+  padding: 20px 8px 20px 8px !important;
+  border: 1px solid #e8f1f5 !important;
+  border-radius: 3px;
+  background-color: #007cbb12 !important;
+}

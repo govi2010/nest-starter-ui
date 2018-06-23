@@ -1,0 +1,28 @@
+<div class="login-wrapper">
+  <form class="login card-form" [formGroup]="form">
+    <div class="logo">
+      <clr-icon shape="info-circle" class="is-success" size="64"></clr-icon>
+    </div>
+
+    <section class="title d-center">
+      Company Product Name
+    </section>
+    <div class="login-group">
+      <input class="username cus-input" type="text" id="login_username" placeholder="Username"
+             formControlName="name">
+      <input class="password cus-input" type="password" id="login_password" placeholder="Password"
+             formControlName="password">
+      <div class="checkbox">
+        <input type="checkbox" id="rememberme">
+        <label for="rememberme">
+          Remember me
+        </label>
+      </div>
+      <div class="error">
+        Invalid user name or password
+      </div>
+      <button [disabled]="form.invalid" class="btn btn-info-outline">Login</button>
+      <a href="javascript://" class="signup">Sign up for a Company ID</a>
+    </div>
+  </form>
+</div>
